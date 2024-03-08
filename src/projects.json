@@ -9,6 +9,6 @@
     "name": "Hangman!",
     "slug": "hangman",
     "url": "https://nazgul-mx.web.app/hangman",
-    "sourceCode": "https://github.com/nazgul-mx/project-tracker/"
+    "sourceCode": "https://github.com/nazgul-mx/project-tracker/tree/main/src/projects/hangman"
   }
 ]

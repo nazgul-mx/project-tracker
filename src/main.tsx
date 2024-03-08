@@ -4,6 +4,7 @@ import App from "./App.tsx";
 import "./index.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import { ProjectWrapper } from "./ProjectWrapper.tsx";
+import { Hangman } from "./projects/hangman/Hangman.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -18,6 +19,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
               component={<div>Test project 1</div>}
             />
           }
+        />
+        <Route
+          path="hangman"
+          element={<ProjectWrapper name="Hangman" component={<Hangman />} />}
         />
       </Routes>
     </BrowserRouter>

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Project Tracker",
+    "slug": "project-tracker",
+    "url": "https://nazgul-mx.web.app/",
+    "sourceCode": "https://github.com/nazgul-mx/project-tracker"
+  },
+  {
+    "name": "Hangman!",
+    "slug": "hangman",
+    "url": "https://nazgul-mx.web.app/hangman",
+    "sourceCode": "https://github.com/nazgul-mx/project-tracker/"
+  }
+]
